@@ -10,6 +10,6 @@ public class OpsController {
 
    @RequestMapping("/")
    public @ResponseBody String greeting() {
-        return "Ops is On dev";
+        return "Ops is On dev tools";
     }
 }
