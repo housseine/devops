@@ -3,5 +3,5 @@ cache:
   - $HOME/.m2
 language: java
 jdk:
-- oraclejre1.8.0_181
+- oraclejdk8
 script: ./build.sh
