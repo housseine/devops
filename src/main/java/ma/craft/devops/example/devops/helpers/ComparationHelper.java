@@ -5,7 +5,9 @@ public class ComparationHelper {
     private ComparationHelper(){}
 
     public static boolean compareLongs(long a, long b){
-        return a == b;
+    	if(a==b)
+        return true;
+		return false;
     }
 
     public static boolean isHello(String anyString){
