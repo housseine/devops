@@ -5,7 +5,7 @@ if [ ${TRAVIS_PULL_REQUEST} = 'false' ] && [[ $TRAVIS_BRANCH = 'master'  ||  ${T
       -Dsonar.login=${SONAR_LOGIN} \
       -Dsonar.projectKey=${SONAR_PROJECT} \
       -Dsonar.organization=${SONAR_ORGANIZATION}
-fi
+
 elif [ ${TRAVIS_PULL_REQUEST} != 'false' ]; then
       echo 'Build and analyze pull request'
       mvn -B clean verify sonar:sonar \
