@@ -2,7 +2,7 @@ cache:
   directories:
 <<<<<<< HEAD
    - $HOME/.m2
-language: java
+language: 
 jdk:
  - oraclejdk8
 script: ./build.sh
