@@ -19,3 +19,4 @@ elif [ ${TRAVIS_PULL_REQUEST} != 'false' ]; then
       -Dsonar.pullrequest.branch=${develop}  \
       -Dsonar.pullrequest.key=${TRAVIS_PULL_REQUEST};
 fi
+
